@@ -1,0 +1,53 @@
+.Window {
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh
+}
+
+.Main {
+    background: white;
+    color: black;
+    width: 50%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Content {
+    color: black;
+    width: 90%;
+    height: 75%;
+    padding: 5%;
+}
+
+.Footer {
+    display: flex;
+    color: white;
+    background: black;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#normal {
+    font-size: 11pt
+}
+
+#bold {
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+#name {
+    text-decoration: underline;
+    text-decoration-color:  rgb(15, 134, 214);
+}
+
+ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }

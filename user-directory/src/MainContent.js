@@ -22,7 +22,7 @@ class MainContent extends Component {
     handlePrevious(){
         this.setState({
             i: this.state.i - 1
-    })
+        })
     }
 
     render(){
